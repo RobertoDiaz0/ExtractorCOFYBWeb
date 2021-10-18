@@ -1,2 +1,3 @@
 # ExtractorCOFYBWeb
-Versión Debug de la app de escritorio
+Versión Web (Debug) de la app de escritorio.
+La aplicación posee el archivo Planilla.xlsx, el cual debe subirse con el inputl file del HTML que nos devuelve el servidor local como respuesta a nuestra request.GET. Cuando realizamos la requeste.POST, el archivo  subido es procesado por el servidor con el algoritmo de la aplicación realizada para el COFYB, el cual extrae el CUIT de las cadenas de caracteres de cierta columna y los cruza con el arcivo Colegiados.xlsx que se encuentra en la carpeta MEDIA, devolviendo finalmente el nombre y número del colegiado que realizó la transferencia.
